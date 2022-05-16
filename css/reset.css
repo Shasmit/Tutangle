@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500&display=swap');
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: 'Nunito', sans-serif;
+	/* font-family: 'Macondo', cursive;   */
+	/* font-family:'Nunito', sans-serif; */
+	
+}
+html{
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+.block-title{
+	font-size: 15px;
+	height: 42px;
+	line-height: 42px;
+	padding: 0px 12px;
+	color: white;
+	background-color: #F58840;
+}
+.container{
+	max-width: 58.625em;
+	margin:0 auto;
+	padding: 0em 2em;
+}
